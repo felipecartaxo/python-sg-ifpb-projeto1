@@ -7,7 +7,6 @@ valores_rotacao = [7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22, 7, 12, 17, 22,
              6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21, 6, 10, 15, 21]
 
 # Tabela de constantes
-# constantes = [int(abs(math.sin(i + 1)) * 4294967296) & 0xFFFFFFFF for i in range(64)]
 constantes = []
 for i in range(64):
     valor = abs(math.sin(i + 1)) * 4294967296
